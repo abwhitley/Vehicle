@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E9C641AB1D6532AF00F0E388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C641AA1D6532AF00F0E388 /* main.m */; };
+		E9C641B31D6532D200F0E388 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C641B21D6532D200F0E388 /* Model.m */; };
+		E9C641B61D65333D00F0E388 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C641B51D65333D00F0E388 /* Vehicle.m */; };
+		E9C641B91D6534B000F0E388 /* Make.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C641B81D6534B000F0E388 /* Make.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E9C641A71D6532AF00F0E388 /* Vehicle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vehicle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C641AA1D6532AF00F0E388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9C641B11D6532D200F0E388 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E9C641B21D6532D200F0E388 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E9C641B41D65333D00F0E388 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		E9C641B51D65333D00F0E388 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		E9C641B71D6534B000F0E388 /* Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Make.h; sourceTree = "<group>"; };
+		E9C641B81D6534B000F0E388 /* Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Make.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E9C641AA1D6532AF00F0E388 /* main.m */,
+				E9C641B71D6534B000F0E388 /* Make.h */,
+				E9C641B11D6532D200F0E388 /* Model.h */,
+				E9C641B41D65333D00F0E388 /* Vehicle.h */,
+				E9C641B81D6534B000F0E388 /* Make.m */,
+				E9C641B21D6532D200F0E388 /* Model.m */,
+				E9C641B51D65333D00F0E388 /* Vehicle.m */,
 			);
 			path = Vehicle;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C641AB1D6532AF00F0E388 /* main.m in Sources */,
+				E9C641B31D6532D200F0E388 /* Model.m in Sources */,
+				E9C641B61D65333D00F0E388 /* Vehicle.m in Sources */,
+				E9C641B91D6534B000F0E388 /* Make.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
